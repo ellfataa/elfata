@@ -1,0 +1,296 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+}
+h4 {
+  font-family: "Poppins";
+  font-weight: 600;
+}
+#jumbotron {
+  padding-top: 7rem;
+  background-color: white;
+}
+.jd-home,
+.jd-projects {
+  border: 1px solid #0c41ff;
+  border-radius: 12px;
+  width: 120px;
+  padding: 4px;
+  text-align: center;
+  color: #0c41ff;
+}
+
+#about,
+#certif {
+  background-color: #dbe3ff;
+  padding-top: 7rem;
+}
+.jd-about,
+.jd-contact {
+  border: 1px solid #0c41ff;
+  border-radius: 12px;
+  width: 100px;
+  padding: 4px;
+  text-align: center;
+  color: #0c41ff;
+  margin: auto;
+}
+
+#projects {
+  background-color: white;
+  padding-top: 7rem;
+}
+.show-more {
+  background-color: #0c41ff;
+  border-radius: 8px;
+  width: 100px;
+  padding: 12px 10px;
+  text-align: center;
+  color: white;
+  margin: auto;
+  text-decoration: none;
+}
+.show-more:hover {
+  background-color: transparent;
+  color: black;
+}
+.gambar,
+.img-certif {
+  transform: scale(1);
+  transition: 0.3s ease-out;
+}
+.gambar:hover,
+.img-certif:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in;
+}
+.jd-certificate {
+  border: 1px solid #0c41ff;
+  border-radius: 12px;
+  width: 150px;
+  padding: 4px;
+  text-align: center;
+  color: #0c41ff;
+  margin-left: auto;
+}
+.certificate {
+  background-color: #0c41ff;
+  border-radius: 8px;
+  width: 100px;
+  padding: 12px 10px;
+  text-align: center;
+  color: white;
+  margin: auto;
+  text-decoration: none;
+}
+.certificate:hover {
+  background-color: transparent;
+  color: black;
+}
+
+#contact {
+  padding-top: 7rem;
+}
+.submit {
+  background-color: #0c41ff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+}
+.submit:hover {
+  background-color: transparent;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Navbar */
+  .navigasi {
+    text-align: right;
+    width: 100%;
+  }
+  .navbarList {
+    border-top: #0c41ff 1px solid;
+  }
+  .navbarUl {
+    margin-bottom: 10px;
+  }
+  .cv {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+  }
+  /* Akhir Navbar */
+
+  /* Hero */
+  .jd-home {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .judul-jumbotron h1,
+  .judul-jumbotron p {
+    text-align: center;
+  }
+  .img-jumbotron {
+    width: 100%;
+    height: auto;
+  }
+  /* Akhir Hero */
+
+  /* About */
+  .jd-about {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .judul-about h1 {
+    text-align: center;
+  }
+  /* Akhir About */
+
+  /* Projects */
+  .jd-projects {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .judul-projects h1,
+  .judul-projects p {
+    text-align: center;
+  }
+  .gambar {
+    width: 60%;
+    height: 70%;
+    margin-bottom: 50px;
+  }
+  /* Akhir Projects */
+
+  /* Certificate */
+  .img-certif {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 20px;
+  }
+  .judul-certif h1,
+  .judul-certif p {
+    text-align: center;
+  }
+  .jd-certificate {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .baris-certif{
+    flex-direction: column-reverse;
+  }
+  /* Akhir Certificate */
+
+  /* Kontak */
+  .isi-kontak {
+    text-align: center;
+  }
+  /* Akhir Kontak */
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  /* Navbar */
+  .navigasi {
+    text-align: right;
+    width: 100%;
+  }
+  .navbarList {
+    border-top: #0c41ff 1px solid;
+  }
+  .navbarUl {
+    margin-bottom: 10px;
+  }
+  .cv {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+  }
+  /* Akhir Navbar */
+
+  /* Hero */
+  .jd-home {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .judul-jumbotron{
+    width: 100%;
+  }
+  .judul-jumbotron h1,
+  .judul-jumbotron p {
+    text-align: center;
+  }
+  .img-jumbotron {
+    width: 100%;
+    height: auto;
+  }
+  /* Akhir Hero */
+
+  /* About */
+  .jd-about {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .judul-about h1 {
+    text-align: center;
+  }
+  /* Akhir About */
+
+  /* Projects */
+  .jd-projects {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .judul-projects{
+    width: 100%;
+  }
+  .judul-projects h1,
+  .judul-projects p {
+    text-align: center;
+  }
+  .gambar {
+    width: 60%;
+    height: 100%;
+    margin-bottom: 50px;
+  }
+  /* Akhir Projects */
+
+  /* Certificate */
+  .img-certif {
+    width: 60%;
+    height: 50%;
+    margin-bottom: 20px;
+  }
+  .judul-certif{
+    width: 100%;
+  }
+  .judul-certif h1,
+  .judul-certif p {
+    text-align: center;
+  }
+  .jd-certificate {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .baris-certif{
+    flex-direction: column-reverse;
+  }
+  /* Akhir Certificate */
+
+  /* Kontak */
+  .judul-kontak{
+    width: 100%;
+  }
+  .isi-kontak {
+    width: 100%;
+    text-align: center;
+  }
+  /* Akhir Kontak */
+}

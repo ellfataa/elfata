@@ -1,0 +1,81 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+}
+h4 {
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+#sertifikat {
+  padding-top: 7rem;
+}
+.jd-certif {
+  border: 1px solid #0c41ff;
+  border-radius: 12px;
+  width: 150px;
+  padding: 4px;
+  text-align: center;
+  color: #0c41ff;
+  margin: auto;
+}
+
+#sertif-1,
+#sertif-3 {
+  padding-top: 7rem;
+  background-color: #dbe3ff;
+}
+.img-1 {
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: default;
+  box-shadow: 5px 5px 15px 0 gray;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Navbar */
+  .navigasi {
+    text-align: right;
+    width: 100%;
+  }
+  .navbarList {
+    border-top: #0c41ff 1px solid;
+  }
+  .navbarUl {
+    margin-bottom: 10px;
+  }
+  .cv {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+  }
+  /* Akhir Navbar */
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  /* Navbar */
+  .navigasi {
+    text-align: right;
+    width: 100%;
+  }
+  .navbarList {
+    border-top: #0c41ff 1px solid;
+  }
+  .navbarUl {
+    margin-bottom: 10px;
+  }
+  .cv {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+  }
+  /* Akhir Navbar */
+}

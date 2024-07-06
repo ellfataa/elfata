@@ -1,0 +1,167 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: auto;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+}
+h4 {
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+#hero {
+  padding-top: 7rem;
+  width: auto;
+}
+.jd-project {
+  border: 1px solid #0c41ff;
+  border-radius: 12px;
+  width: 100px;
+  padding: 4px;
+  text-align: center;
+  color: #0c41ff;
+  margin: auto;
+}
+#projects-1,
+#projects-3 {
+  background-color: #dbe3ff;
+  width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Navbar */
+  .navigasi {
+    text-align: right;
+    max-width: 600px;
+  }
+  .navbarList {
+    border-top: #0c41ff 1px solid;
+  }
+  .navbarUl {
+    margin-bottom: 10px;
+  }
+  .cv {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+  }
+  /* Akhir Navbar */
+
+  /* Hero */
+  .judul-hero {
+    width: 100%;
+  }
+  .judul-hero h1,
+  .judul-hero p {
+    text-align: center;
+  }
+  .jd-project {
+    text-align: center;
+  }
+  /* Akhir Hero */
+
+  /* Projects 1 */
+  .projects-1 {
+    width: 100%;
+  }
+  .img-project {
+    width: 100%;
+    height: 100%;
+  }
+  /* Akhir Projects 1 */
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  /* Navbar */
+  .navigasi {
+    text-align: right;
+    width: 100%;
+  }
+  .navbarList {
+    border-top: #0c41ff 1px solid;
+  }
+  .navbarUl {
+    margin-bottom: 10px;
+  }
+  .cv {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+  }
+  /* Akhir Navbar */
+
+  /* Hero */
+  .judul-hero {
+    width: 100%;
+  }
+  .judul-hero h1,
+  .judul-hero p {
+    text-align: center;
+  }
+  .jd-project {
+    text-align: center;
+  }
+  /* Akhir Hero */
+
+  /* Projects 1 */
+  .projects-1 {
+    width: auto;
+  }
+  .img-project {
+    width: 100%;
+    height: 100%;
+  }
+  .judul-projects1 h4,
+  .judul-projects1 p {
+    text-align: center;
+  }
+  /* Akhir Projects 1 */
+
+  /* Projects 2 */
+  .projects-2 {
+    width: auto;
+  }
+  .img-project {
+    width: 100%;
+    height: 100%;
+  }
+  .judul-projects2 h4,
+  .judul-projects2 p {
+    text-align: center;
+  }
+  /* Akhir Projects 2 */
+
+  /* Projects 3 */
+  .projects-3 {
+    width: auto;
+  }
+  .img-project {
+    width: 100%;
+    height: 100%;
+  }
+  .judul-projects3 h4,
+  .judul-projects3 p {
+    text-align: center;
+  }
+  /* Akhir Projects 3 */
+
+  /* Projects 4 */
+  .projects-4 {
+    width: auto;
+  }
+  .img-project {
+    width: 100%;
+    height: 100%;
+  }
+  .judul-projects4 h4,
+  .judul-projects4 p {
+    text-align: center;
+  }
+  /* Akhir Projects 4 */
+}
